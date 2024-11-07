@@ -1,8 +1,47 @@
 # Project Management Application
 
-<div align="center">
-  <img src="path_to_image1.png" alt="Application Overview Image" width="500">
-  <img src="path_to_image2.png" alt="Desktop View of the Application" width="500">
+## Application Screenshots
+
+### Application Overview
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="/images/FocusBooster1.jpg" width="400px">
+  <img src="/images/FocusBooster2.jpg" width="400px">
+  <img src="/images/FocusBooster3.jpg" width="400px">
+  <img src="/images/FocusBooster4.jpg" width="400px">
+</div>
+
+---
+
+### Login and Registration
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="/images/FocusBooster5.jpg" width="400px">
+  <img src="/images/FocusBooster6.jpg" width="400px">
+</div>
+
+---
+
+### Main Application Interface
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="/images/FocusBooster7.jpg" width="400px">
+  <img src="/images/FocusBooster8.jpg" width="400px">
+  <img src="/images/FocusBooster9.jpg" width="400px">
+  <img src="/images/FocusBooster10.jpg" width="400px">
+</div>
+
+---
+
+### Animated Backgrounds
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="/images/FocusBooster11.jpg" width="400px">
+  <img src="/images/FocusBooster12.jpg" width="400px">
+  <img src="/images/FocusBooster13.jpg" width="400px">
+  <img src="/images/FocusBooster14.jpg" width="400px">
+  <img src="/images/FocusBooster15.jpg" width="400px">
+  <img src="/images/FocusBooster16.jpg" width="400px">
 </div>
 
 ## Overview
