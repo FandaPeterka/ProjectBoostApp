@@ -5,10 +5,10 @@
 ### Application Overview
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="/images/FocusBooster1.jpg" width="400px">
-  <img src="/images/FocusBooster2.jpg" width="400px">
-  <img src="/images/FocusBooster3.jpg" width="400px">
-  <img src="/images/FocusBooster4.jpg" width="400px">
+  <img src="/images/FocusBooster1.png" width="500px">
+  <img src="/images/FocusBooster2.png" width="500px">
+  <img src="/images/FocusBooster3.png" width="500px">
+  <img src="/images/FocusBooster4.png" width="500px">
 </div>
 
 ---
@@ -16,8 +16,8 @@
 ### Login and Registration
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="/images/FocusBooster5.jpg" width="400px">
-  <img src="/images/FocusBooster6.jpg" width="400px">
+  <img src="/images/FocusBooster5.png" width="500px">
+  <img src="/images/FocusBooster6.png" width="500px">
 </div>
 
 ---
@@ -25,10 +25,10 @@
 ### Main Application Interface
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="/images/FocusBooster7.jpg" width="400px">
-  <img src="/images/FocusBooster8.jpg" width="400px">
-  <img src="/images/FocusBooster9.jpg" width="400px">
-  <img src="/images/FocusBooster10.jpg" width="400px">
+  <img src="/images/FocusBooster7.png" width="500px">
+  <img src="/images/FocusBooster8.png" width="500px">
+  <img src="/images/FocusBooster9.png" width="500px">
+  <img src="/images/FocusBooster10.png" width="500px">
 </div>
 
 ---
@@ -36,12 +36,12 @@
 ### Animated Backgrounds
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="/images/FocusBooster11.jpg" width="400px">
-  <img src="/images/FocusBooster12.jpg" width="400px">
-  <img src="/images/FocusBooster13.jpg" width="400px">
-  <img src="/images/FocusBooster14.jpg" width="400px">
-  <img src="/images/FocusBooster15.jpg" width="400px">
-  <img src="/images/FocusBooster16.jpg" width="400px">
+  <img src="/images/FocusBooster11.png" width="500px">
+  <img src="/images/FocusBooster12.png" width="500px">
+  <img src="/images/FocusBooster13.png" width="500px">
+  <img src="/images/FocusBooster14.png" width="500px">
+  <img src="/images/FocusBooster15.png" width="500px">
+  <img src="/images/FocusBooster16.png" width="500px">
 </div>
 
 ## Overview
