@@ -1,0 +1,20 @@
+.text-input-group {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px; /* Přizpůsobte dle potřeby */
+    border: 2px solid #AAAAAA;
+    background-color: #e0e0e0;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.text-input:focus {
+    outline: none;
+    border-color: #ffffff;
+}

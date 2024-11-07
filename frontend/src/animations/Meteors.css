@@ -1,0 +1,27 @@
+/* Resets */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto; /* Allow body to expand as needed */
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  overflow-y: auto; /* Enable vertical scroll */
+  position: relative; /* Needed for absolute positioning context */
+}
+
+.MeteorCanvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(135deg, #000000 0%, #000000 25%, #00008B 50%, #8A2BE2 75%, #FF0000 100%);
+  z-index: -1000;
+}
+
+.content {
+  position: relative;
+  z-index: 1; /* Higher than MeteorCanvas */
+  padding: 20px;
+}

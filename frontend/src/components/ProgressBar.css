@@ -1,0 +1,25 @@
+/* ProgressBar.css */
+.progress-bar-container {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;  /* Ensures the inner bar does not overlap the border radius */
+    margin-top: 15px;
+}
+
+.progress-bar {
+    height: 30px;
+    border-radius: 8px; /* Apply the same radius as the container to maintain consistency */
+    text-align: center;
+    color: white;
+    line-height: 30px; /* Vertically center the text inside the bar */
+    background: linear-gradient(to right, #4caf50, #8bc34a, #cddc39, #4caf50, #8bc34a); /* Green gradient transition */
+    background-size: 400% 100%; /* Increase the background size to allow for a longer gradient */
+    animation: slideGradient 3s linear infinite; /* Adjust duration for a smoother effect */
+    transition: width 0.5s ease; /* Smooth transition for width changes */
+}
+
+@keyframes slideGradient {
+    0% { background-position: 100% 0; }
+    100% { background-position: 0% 0; }
+}

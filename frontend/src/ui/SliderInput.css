@@ -1,0 +1,62 @@
+.reusable-slider-input {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.reusable-slider-input label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.reusable-input {
+    width: calc(100% - 60px);
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 30px;
+    border: 2px solid #AAAAAA;
+    background-color: #e0e0e0;
+    font-size: 1rem;
+    color: black;
+}
+
+.reusable-input:focus {
+    outline: none;
+    border-color: #ffffff;
+}
+
+/* SliderInput.css */
+.reusable-slider {
+    -webkit-appearance: none;
+    width: 90%;
+    height: 6px;
+    border-radius: 3px;
+    background: linear-gradient(to right, 
+        var(--slider-color-start) 0%, 
+        var(--slider-color-start) var(--slider-percentage), 
+        var(--slider-color-end) var(--slider-percentage), 
+        var(--slider-color-end) 100%);
+    cursor: pointer;
+    outline: none;
+    transition: background 0.3s ease;
+}
+
+.reusable-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    border: 1px solid #b71c1c;
+}
+
+.reusable-slider::-moz-range-thumb {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    border: 1px solid #b71c1c;
+}
+

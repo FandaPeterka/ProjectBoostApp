@@ -1,0 +1,45 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Toto může být změněno na auto, pokud obsah přesahuje výšku viewportu */
+  width: 100%;
+  overflow-x: hidden; /* Zabraňuje horizontálnímu scrollování */
+  overflow-y: auto; /* Umožňuje vertikální scrollování */
+  font-family: Arial, sans-serif; /* Přidáno pro jednotný vzhled fontů */
+  position: relative; /* Zajišťuje kontext pro absolutní pozicování */
+}
+
+/* Styly pro noční pozadí s gradientem */
+.night {
+  position: absolute; /* Změněno z fixed na absolute */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to top, #0f0c29, #302b63, #24243e);
+  overflow: hidden;
+  z-index: -1; /* Udržuje tento element v pozadí */
+}
+
+/* Definice vzhledu kapek deště */
+.raindrop {
+  background: linear-gradient(#0D343A, rgba(255, 255, 255, 0.6));
+  width: 2px;
+  height: 89px;
+  position: absolute;
+  bottom: -100px; /* Zajistí, že kapky začínají mimo obrazovku */
+  animation: raining linear infinite;
+  animation-fill-mode: both; /* Upraveno pro lepší plynulost */
+}
+
+/* Animace pro padající kapky */
+@keyframes raining {
+  0% {
+    transform: translateY(-100vh);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(100vh);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,31 @@
+/* Globální nastavení pro HTML a BODY */
+body, html {
+    height: 100%; /* Změněno na 'min-height: 100%' pro rozšíření těla podle obsahu */
+    margin: 0; /* Odebere defaultní okraje */
+    overflow-x: hidden; /* Zabraňuje horizontálnímu scrollování */
+    overflow-y: auto; /* Umožňuje vertikální scrollování */
+    position: relative; /* Poskytuje kontext pro absolutní pozicování */
+}
+
+/* Nastavení pro .falling-leaves jako pozadí */
+.falling-leaves {
+    position: fixed; /* Zůstává 'fixed' pro pokrytí celé obrazovky */
+    top: 0;
+    left: 0;
+    width: 100vw; /* Šířka nastavena na 100% viewport width */
+    height: 100vh; /* Výška nastavena na 100% viewport height */
+    overflow: hidden; /* Zamezí přesahu obsahu */
+    background: linear-gradient(to bottom, #FFD700, #FF8C00, #FF4500); /* Gradient od žluté přes oranžovou po červenou */
+    z-index: -1; /* Udržuje tento element v pozadí */
+}
+
+/* Styly pro elementy listů v scéně */
+.leaf-scene div {
+    position: absolute; /* Absolutní pozicování vůči nejbližšímu pozicovanému předkovi */
+    width: 20px; /* Velikost listu, může být upravena */
+    height: 20px; /* Velikost listu, může být upravena */
+    background: url(./images/maple.png) no-repeat; /* Cesta k obrázku listu */
+    background-size: 100%; /* Nastavení velikosti pozadí */
+    transform-style: preserve-3d; /* Povolí 3D transformace */
+    backface-visibility: visible; /* Viditelnost zadní strany */
+}

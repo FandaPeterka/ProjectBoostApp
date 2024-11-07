@@ -1,0 +1,33 @@
+/* Globální resety a nastavení scrollování */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%; /* Nastavuje šířku na 100% viewportu */
+    height: 100%; /* Nastavuje výšku na 100% viewportu */
+    overflow-x: hidden; /* Zabrání horizontálnímu scrollování */
+    overflow-y: auto; /* Umožní vertikální scrollování */
+    position: relative; /* Nutné pro kontext absolutního pozicování */
+}
+
+/* Styly pro .fishs-container, který funguje jako rodič pro canvas */
+.fishs-container {
+    position: fixed; /* Použití fixed pro umístění přes celý viewport */
+    top: 0;
+    left: 0;
+    width: 100vw; /* Používá viewport šířky pro pokrytí celé šířky */
+    height: 100vh; /* Používá viewport výšky pro pokrytí celé výšky */
+    overflow: hidden; /* Skryje přebytečný obsah */
+    z-index: -1; /* Zajistí, že canvas bude za vším ostatním obsahem */
+    background: linear-gradient(135deg, #000000 0%, #000000 25%, #00008B 50%, #8A2BE2 75%, #FF0000 100%);
+}
+
+/* Styly pro canvas, které zajišťují jeho správné pozicování a velikost */
+.fishs-container canvas {
+    position: absolute; /* Absolutní pozicování v rámci .fishs-container */
+    top: 0;
+    left: 0;
+    width: 100%; /* Šířka odpovídá šířce kontejneru */
+    height: 100%; /* Výška odpovídá výšce kontejneru */
+    margin: 0; /* Odstranění defaultních marginů */
+    padding: 0; /* Odstranění defaultního paddingu */
+}

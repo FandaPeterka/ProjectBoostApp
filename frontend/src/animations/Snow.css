@@ -1,0 +1,20 @@
+html, body {
+  height: 100%; /* Toto může být změněno na min-height: 100% pro rozšíření těla podle obsahu */
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden; /* Zabraňuje horizontálnímu scrollování */
+  overflow-y: auto; /* Umožňuje vertikální scrollování */
+  position: relative; /* Kontext pro absolutní pozicování */
+  z-index: 1; /* Udržuje HTML a BODY nad ostatními absolutně pozicovanými prvkami */
+}
+
+/* Styly pro .snow - vizuální vrstva pro sníh */
+.snow {
+  position: absolute; /* Pozicování vůči nejbližšímu relativně pozicovanému předkovi */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #243B55 0%, #141E30 30%, #0A192F 50%, #0D1B2A 70%, #000000 100%);
+  z-index: -1; /* Udržuje tento element v pozadí */
+}

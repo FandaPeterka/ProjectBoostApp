@@ -1,0 +1,6 @@
+.background-button {
+    max-width: 45%; /* Ensures the button stretches to fill the container */
+    margin-bottom: 10px; /* Adds spacing between buttons */
+    /* Add more styling here according to your design needs */
+    margin: 10px;
+}

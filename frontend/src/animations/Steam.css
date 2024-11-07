@@ -1,0 +1,32 @@
+/* Základní nastavení pro HTML a BODY */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Toto lze změnit na min-height: 100% */
+  width: 100%;
+  overflow-x: hidden; /* Zabraňuje horizontálnímu scrollování */
+  overflow-y: auto; /* Umožňuje vertikální scrollování */
+  position: relative; /* Poskytuje kontext pro absolutní pozicování */
+}
+
+/* Nastavení pro plátno s gradientem */
+#canvas {
+  display: block;
+  position: absolute; /* Plátno je pozicováno vůči nejbližšímu relativně pozicovanému předkovi */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* Tuto hodnotu lze upravit podle obsahu */
+  background: linear-gradient(135deg, #800080, #ff0000, #ff8080);
+  z-index: -1; /* Udržuje plátno v pozadí */
+}
+
+/* Animace pro změnu průhlednosti plátna */
+@keyframes hide {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

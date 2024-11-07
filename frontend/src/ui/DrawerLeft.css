@@ -1,0 +1,74 @@
+.leftDrawer {
+    position: fixed;
+    top: 40%; /* Ajusted for better positioning */
+    left: 0;
+    width: 70%;
+    min-height: 40%;
+    max-height: 50%; /* Ajusted for visibility */
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%); /* Start hidden */
+    z-index: 1049; /* Reduce z-index so that toggle is above */
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.leftDrawer.open {
+    transform: translateX(0); /* Show drawer */
+}
+
+.leftDrawer.closed {
+    transform: translateX(-100%); /* Hide drawer */
+}
+
+.leftDrawer-toggle {
+    position: fixed; /* Changed from absolute to fixed */
+    right: -30px; /* Align to the right edge of the viewport */
+    top: 50%; /* Middle of the screen */
+    transform: translateY(-50%);
+    background-color: #333;
+    width: 30px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    z-index: 1050; /* Ensure toggle is above other elements */
+}
+
+.leftDrawer-content {
+    padding: 20px;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.leftDrawer-content::-webkit-scrollbar {
+    width: 8px; /* Šířka posuvníku */
+    background: transparent; /* Transparentní pozadí */
+}
+
+.leftDrawer-content::-webkit-scrollbar-thumb {
+    background-color: silver; /* Stříbrná barva posuvníku */
+    border-radius: 4px; /* Zaoblení rohů posuvníku */
+}
+
+.leftDrawer-content::-webkit-scrollbar-track {
+    background: transparent; /* Transparentní pozadí dráhy */
+}
+
+.leftDrawer-content::-moz-scrollbar {
+    width: 8px; /* Šířka posuvníku pro Firefox */
+    background: transparent; /* Transparentní pozadí */
+}
+
+.leftDrawer-content::-moz-scrollbar-thumb {
+    background-color: silver; /* Stříbrná barva posuvníku pro Firefox */
+    border-radius: 4px; /* Zaoblení rohů posuvníku */
+}
+
+.leftDrawer-content::-moz-scrollbar-track {
+    background: transparent; /* Transparentní pozadí dráhy pro Firefox */
+}
+

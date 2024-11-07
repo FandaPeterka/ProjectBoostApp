@@ -1,0 +1,56 @@
+.task {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid white; /* Fialový okraj pouze dole */
+    border-radius: 0; /* Removes the border-radius except at the bottom */
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.delete-task-button {
+    background-color: transparent; /* Průhledné pozadí */
+    border: none;
+    cursor: pointer;
+}
+
+.delete-task-button .icon {
+    color: #ff0000; /* Fialová barva ikony */
+    font-size: 1.3rem; /* Velikost ikony */
+    
+}
+
+.delete-task-button:hover .icon {
+    color: #bf0000; /* Tmavší odstín fialové při najetí myší */
+}
+
+.complete-task-button {
+    background-color: rgba(0, 0, 0, 0.5); /* Lehce temnější transparentní pozadí */
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.5); /* Průhledný bílý okraj */
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 25px; /* Společná výchozí velikost textu uvnitř tlačítek */
+    width: 50px; /* Určuje šířku tlačítka */
+    height: 50px; /* Určuje výšku tlačítka */
+    margin-right: 10px;
+    display: flex; /* Umožňuje centrování obsahu */
+    justify-content: center; /* Centruje obsah vodorovně */
+    align-items: center; /* Centruje obsah svisle */
+    z-index: 20; /* Zajištění, že bude nad ostatními prvky */
+    transition: all 0.3s ease; /* Plynulá změna všech efektů */
+}
+
+.complete-task-button:hover {
+    transform: scale(1.1); /* Zvětšení tlačítka */
+}
+
+.restore-task-button {
+    background-color: transparent; /* Průhledné pozadí */
+    border: none;
+    cursor: pointer;
+    font-size: 1.3rem; /* Velikost ikony */
+    color: #ffffff; /* Fialová barva ikony */
+}
+
+
+

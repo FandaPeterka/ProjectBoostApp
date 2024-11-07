@@ -1,0 +1,15 @@
+.task-input {
+    width: 100%; /* Ensures input takes up the full width of its container */
+    border: none; /* Removes the border to make it less noticeable as an input field */
+    border-radius: 0; /* Removes rounded corners */
+    resize: none; /* Prevents the user from resizing */
+    overflow: hidden; /* Hides the scrollbar */
+    line-height: 1.5; /* Sets line height */
+    box-shadow: none; /* Removes shadow to make it blend in more */
+    font-size: 1.1rem;
+    background-color: transparent; /* Makes background transparent */
+    color: inherit; /* Text color inherits from parent, making it blend more */
+    caret-color: white; /* Changes the cursor color to white for visibility */
+    outline: none; /* Removes the outline to make it look like part of the page */
+    padding: 10px 0; /* Adds padding but only vertically */
+}
