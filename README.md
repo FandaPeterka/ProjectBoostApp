@@ -5,10 +5,10 @@
 ### Application Overview
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="/images/FocusBooster1.png" width="500px">
-  <img src="/images/FocusBooster2.png" width="500px">
-  <img src="/images/FocusBooster3.png" width="500px">
-  <img src="/images/FocusBooster4.png" width="500px">
+  <img src="/images/FocusBooster1.png" width="400px">
+  <img src="/images/FocusBooster2.png" width="400px">
+  <img src="/images/FocusBooster3.png" width="400px">
+  <img src="/images/FocusBooster4.png" width="400px">
 </div>
 
 ---
