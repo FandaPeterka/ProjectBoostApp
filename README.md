@@ -54,26 +54,6 @@ The **backend** is developed with **Node.js** and **Express.js**:
 
 ---
 
-## Environment Variables
-
-The application requires configuration of environment variables to securely manage sensitive information.
-
-### Frontend Environment (`frontend/.env`)
-
-In the frontend `.env` file, specify variables to configure email service integration. Include:
-- A service ID, template ID, and public key for **EmailJS** integration. These allow the app to send notifications or confirmations via email.
-
-### Backend Environment (`backend/.env`)
-
-In the backend `.env` file, define the following variables:
-- **Port** for the server to run on.
-- **MongoDB connection URI** to connect to the database.
-- **Secret key** for generating JWT tokens to secure user authentication.
-
-Replace placeholders in the `.env` files with your own secure keys and URIs as required.
-
----
-
 ## Installation and Setup
 
 1. **Clone the Repository**: Clone this repository to your local environment and open it in your code editor.
