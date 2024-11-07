@@ -16,8 +16,8 @@
 ### Login and Registration
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="/images/FocusBooster5.png" width="500px">
-  <img src="/images/FocusBooster6.png" width="500px">
+  <img src="/images/FocusBooster5.png" width="400px">
+  <img src="/images/FocusBooster6.png" width="400px">
 </div>
 
 ---
@@ -25,10 +25,10 @@
 ### Main Application Interface
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="/images/FocusBooster7.png" width="500px">
-  <img src="/images/FocusBooster8.png" width="500px">
-  <img src="/images/FocusBooster9.png" width="500px">
-  <img src="/images/FocusBooster10.png" width="500px">
+  <img src="/images/FocusBooster7.png" width="400px">
+  <img src="/images/FocusBooster8.png" width="400px">
+  <img src="/images/FocusBooster9.png" width="400px">
+  <img src="/images/FocusBooster10.png" width="400px">
 </div>
 
 ---
@@ -36,12 +36,12 @@
 ### Animated Backgrounds
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="/images/FocusBooster11.png" width="500px">
-  <img src="/images/FocusBooster12.png" width="500px">
-  <img src="/images/FocusBooster13.png" width="500px">
-  <img src="/images/FocusBooster14.png" width="500px">
-  <img src="/images/FocusBooster15.png" width="500px">
-  <img src="/images/FocusBooster16.png" width="500px">
+  <img src="/images/FocusBooster11.png" width="400px">
+  <img src="/images/FocusBooster12.png" width="400px">
+  <img src="/images/FocusBooster13.png" width="400px">
+  <img src="/images/FocusBooster14.png" width="400px">
+  <img src="/images/FocusBooster15.png" width="400px">
+  <img src="/images/FocusBooster16.png" width="400px">
 </div>
 
 ## Overview
