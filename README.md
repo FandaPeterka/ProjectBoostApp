@@ -72,9 +72,9 @@ The frontend environment variables enable the integration with EmailJS for sendi
 
 Add the following variables to your `frontend/.env` file:
 ```plaintext
-- `VITE_APP_EMAILJS_SERVICE_ID`: Your EmailJS service ID.
-- `VITE_APP_EMAILJS_TEMPLATE_ID`: The EmailJS template ID used for sending emails.
-- `VITE_APP_EMAILJS_PUBLIC_KEY`: Your public key from EmailJS.
+`VITE_APP_EMAILJS_SERVICE_ID`: Your EmailJS service ID.
+`VITE_APP_EMAILJS_TEMPLATE_ID`: The EmailJS template ID used for sending emails.
+`VITE_APP_EMAILJS_PUBLIC_KEY`: Your public key from EmailJS.
 ```
 Replace each placeholder with your own secure values from your EmailJS account.
 
@@ -84,9 +84,9 @@ The backend environment variables enable the application to connect securely to 
 
 Add the following variables to your `backend/.env` file:
 ```plaintext
-- `PORT`: The port number where the server will run (e.g., 4000).
-- `MONGO_URI`: The MongoDB connection URI for accessing the database.
-- `SECRET`: A secret key for signing JWT tokens, used for secure authentication.
+`PORT`: The port number where the server will run (e.g., 4000).
+`MONGO_URI`: The MongoDB connection URI for accessing the database.
+`SECRET`: A secret key for signing JWT tokens, used for secure authentication.
 ```
 Ensure each placeholder is replaced with your actual, secure values.
 
